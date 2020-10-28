@@ -77,7 +77,7 @@ loocv_caret_error =  1 - loocv_caret$results$Accuracy
 #creating a table to checck if LOOCV from sractch and library get same value.
 loocv_error_comparison <- cbind(loocv_from_scratch_error, loocv_caret_error)
 colnames(loocv_error_comparison) <- c("loocv_from_scratch_error", "loocv_caret_error")
-rownames(loocv_error_comparison) <- c("Error")
+rownames(loocv_error_comparison) <- c("Test Error")
 loocv_error_comparison
 
 # (d) For the logistic regression model you proposed in #1, estimate the test error rate using LOOCV.
